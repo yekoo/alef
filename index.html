@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta lang="ru">
+    <title>Alef Test Task</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts.js" defer type="text/javascript"></script>
+</head>
+<body>
+    <header class="centering">
+        <a class="header__item" href="#">
+            <h1 class="header__logo">
+                Logo
+            </h1>
+        </a>
+        <nav class="header__btns">
+            <a href="#" class="header__item"><img src="./assets/person.svg" alt="person"></a>
+            <a href="#" class="header__item"><img  src="./assets/favorite.svg" alt="person"></a>
+            <a href="#" class="header__item"><img  src="./assets/bag.svg" alt="person"></a>
+            <div class="header__item header__menu_btn"><img  src="./assets/menu.svg" alt="person"></div>
+        </nav>
+
+        <nav class="header__menu">
+            <div class="header__menu_top-bar"></div>
+            <a href="#" class="header__menu_item">постельное белье</a>
+            <a href="#" class="header__menu_item">одежда для дома</a>
+            <a href="#" class="header__menu_item">Одежда для улицы</a>
+            <a href="#" class="header__menu_item">ВЫход</a>
+            <img src="./assets/menu-close.svg" class="header__menu_close"/>
+            <div class="header__menu_shadow"></div>
+        </nav>
+    </header>
+
+
+    <main class="centering">
+        <section class="main__section two-column-grid">
+            <div class="product-images">
+                <img src="img/14896420-2-1.jpg" class="product-image_full" alt="cloth"/>
+                <div class="product-image_thumbs">
+                    <img class="product-image_thumbs_item" src="img/14896420-2-1.jpg" alt="cloth pic"/>
+                    <img class="product-image_thumbs_item" src="img/14896420-2-2.jpg" alt="cloth pic"/>
+                    <img class="product-image_thumbs_item" src="img/14896420-2-4.jpg" alt="cloth pic"/>
+                    <img class="product-image_thumbs_item" src="img/14896420-2-5.jpg" alt="cloth pic"/>
+                    <img class="product-image_thumbs_item" src="img/14896420-2-6.jpg" alt="cloth pic"/>
+                </div>
+            </div>
+            <div class="two-column-grid__text">
+                <div class="text-section">
+                    <h2 class="product-name">Пижама для девочек</h2>
+                    <div class="product-id">Арт. 02765/46</div>
+                    <div class="product-rating">Отзывы <span class="product-rating__stars">
+                        &#9733;&#9733;&#9733;&#9733;&#9734;
+                    </span> 
+                    <a href="#" class="product-comments">14 отзывов</a> <img src="./assets/arrow-right-swipe.svg"></div>
+                </div>
+
+                <div class="product__cost">
+                    <div class="product-cost__actual">800 ₽</div>
+                    <div class="product-cost__old">1 500 ₽</div>
+                    <div class="product-cost__arrow"><img src="./assets/arrow-right-swipe.svg"></div>
+                </div>
+
+                <div class="product__discounts">
+                    <div class="product-discount-item">скидка -36%</div>
+                    <div class="product-discount-item">скидка -20%</div>
+                </div>
+
+                <select class="product__select">
+                    <option>XXS</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                </select>
+                <a href="#" class="product__text-link">Определить размер</a>
+
+                <div class="product__text_controls">
+                    
+                    <div class="product__text-count">
+                        <button data-dir="+">+</button>
+                        <input type="number" class="product__text-count_number" value="1">
+                        <button data-dir="-">&minus;</button>
+                    </div>
+                    <div class="product__text_buttons">
+                        <button class="product__text_button product__button_add-to-cart">Добавить в корзину</button>
+                        <button class="product__text_button product__button_favorite">
+                            <!-- <img src="assets/favorite.svg"> -->
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.9 7.0948C10.6998 1.47892 1.40881 5.90389 5.76037 11.6018C10.1119 17.2996 12.4 19.4908 12.4 19.4908" stroke="#ffffff"/>
+                                <path d="M11.8941 7.0948C13.0944 1.47892 22.7304 5.90389 18.3789 11.6018C14.0273 17.2996 11.7 19.5 11.7 19.5" stroke="#ffffff"/>
+                                <path d="M11.391 6.70752L12.4043 6.70757L12.3834 7.24079H11.391V6.70752Z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <a href="#" class="product__text-link">Купить в 1 клик</a>
+                
+                <hr class="product__line"/>
+                
+                <a href="#" class="product__text-link">
+                    <img src="./assets/closes.png" class="product__text-link_image"/>Описание товара
+                </a>
+                <a href="#" class="product__text-link">
+                    <img src="./assets/clock.png" class="product__text-link_image"/>Доставка и возврат
+                </a>
+                <a href="#" class="product__text-link">
+                    <img src="./assets/pay.png" class="product__text-link_image"/>Срособы оплаты
+                </a>
+
+                
+            </div>
+        </section>
+
+        <a class="between-section-link" href="#">
+            Посмотреть все стили
+        </a>
+
+        <section class="main__section">
+            <div class="images-grid">
+                <div class="images-grid__cell_big">
+                    <a href="#"><img src="img/12296786-1 1.png" class="product-image" alt="cloth"/></a>
+                </div>
+                <div class="images-grid__cell_small">
+                    <a href="#"><img src="img/pic-1.png" class="product-image" alt="cloth"/></a>
+                </div>
+                <div class="images-grid__cell_small">
+                    <a href="#"><img src="img/pic-2.png" class="product-image" alt="cloth"/></a>
+                </div>
+                <div class="images-grid__cell_small">
+                    <a href="#"><img src="img/pic-3.png" class="product-image" alt="cloth"/></a>
+                </div>
+                <div class="images-grid__cell_small">
+                    <a href="#"><img src="img/pic-4.png" class="product-image" alt="cloth"/></a>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="centering">
+        <div class="footer-column footer-links-box">
+            <div>
+                <h3>Покупателям</h3>
+                <ul>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Бренды</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>О нас</h3>
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Команда</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-subscribe">
+            <h3>Узнайте первыми о новинках и акциях</h3>
+            <form id="subscribe-form">
+                <!-- type="email"  -->
+                <input type="text" name="email" placeholder="Адрес электронной почты"/>
+                <div class="wrongEmail">Некорректный e-mail</div>
+                <input type="submit" value="Подписаться"/>
+            </form>
+        </div>
+        </div>
+
+        
+        
+    </footer>
+    <div class="popup popup_closed">
+        <div class="popup__shadow"></div>
+        <div class="popup__panel">
+            <h3 class="popup__panel_title"></h3>
+            <div class="panel__cross">&times;</div>
+            <p>
+                Товар <span class="popup__panel__hilite">Пижама для девочек</span> в количестве <span class="popup__panel__number">1</span> единиц добавлен в корзину
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+<!-- /избранное -->
