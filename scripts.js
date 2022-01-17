@@ -118,7 +118,6 @@ bodyElmnt.onscroll = function() {
         headerElm.classList.remove("header-hidden");
     }
 
-    console.log("scrolling: " + nowY);
     lastY = nowY;
 };
 
