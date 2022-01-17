@@ -8,9 +8,7 @@ const thumbElements = Array.from(productThumbList);
 const productfullImage = document.getElementsByClassName("product-image_full")[0];
 
 thumbElements.map((elm)=>{
-    // elm.onclick = ()=>thumbClick();
     elm.onclick = thumbClick;
-    console.log(elm);
 })
 function thumbClick(e){
     const thumbElement = e.target;
